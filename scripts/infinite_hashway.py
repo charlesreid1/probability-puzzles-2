@@ -14,14 +14,6 @@ where alpha = (N-1)/M is the load factor before insertion.
 Drawn from TAOCP Volume 3: Sorting and Searching.
 """
 
-# The Infinite Hashway
-#
-# Linear probing: insert N items into M slots.
-# Expected probes for the N-th insertion ~ (1/2)(1 + 1/(1-alpha)^2)
-# where alpha = (N-1)/M.
-#
-# From: The Art of Computer Programming, Volume 3
-
 import random
 
 

@@ -5,23 +5,10 @@ N spies each watch exactly one other spy (random permutation).
 The surveillance network forms closed loops (cycles).
 
 Expected number of cycles in a random permutation of N = H_N.
-P(Agent 007 is in a 2-cycle) = 1/N (since for a specific element,
-the probability of being in a cycle of any given length k is 1/N).
-
-Actually, P(specific element is in a cycle of length 2):
-Agent i is in a 2-cycle iff sigma(sigma(i)) = i and sigma(i) != i.
-P = (N-1) * (N-2)! / N! = 1/N ... wait, let me derive properly.
-P(sigma(i) = j and sigma(j) = i) for some j != i = (N-1)/(N*(N-1)) = 1/N.
+P(specific element is in a 2-cycle) = 1/N.
 
 Drawn from TAOCP Volume 1: Fundamental Algorithms.
 """
-
-# The Spies Who Watched Me
-#
-# Expected number of cycles in a random permutation of N = H_N.
-# P(specific element is in a 2-cycle) = 1/N.
-#
-# From: The Art of Computer Programming, Volume 1
 
 import random
 

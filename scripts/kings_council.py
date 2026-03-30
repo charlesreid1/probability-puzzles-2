@@ -16,15 +16,6 @@ where H_n is the n-th harmonic number.
 Drawn from TAOCP Volume 2: Seminumerical Algorithms.
 """
 
-# The King's Council
-#
-# Reservoir sampling with K=5: maintain a uniform random sample
-# of K items from a stream of N.
-# P(select N-th item) = K/N
-# Expected replacements = K * (H_N - H_K)
-#
-# From: The Art of Computer Programming, Volume 2
-
 import random
 
 

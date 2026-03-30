@@ -18,14 +18,6 @@ gets his favorite is 1/M (by symmetry of the parking function).
 Drawn from TAOCP Volume 3: Sorting and Searching.
 """
 
-# The Sleepy Knights of the Round Table
-#
-# M knights, M chairs in a circle. Each picks a random favorite,
-# walks clockwise if occupied.
-# P(last knight gets favorite chair) = 1/M
-#
-# From: The Art of Computer Programming, Volume 3
-
 import random
 
 

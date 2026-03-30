@@ -12,16 +12,6 @@ This guarantees each of N vials is selected with probability 1/N.
 Drawn from TAOCP Volume 2: Seminumerical Algorithms.
 """
 
-# The Cautious Alchemist's Vial
-#
-# A stream of N items arrives one at a time. Maintain a single
-# item such that after all N have been seen, each item had an
-# equal 1/N probability of being the one kept.
-#
-# Algorithm R: keep the k-th item with probability 1/k.
-#
-# From: The Art of Computer Programming, Volume 2
-
 import random
 
 

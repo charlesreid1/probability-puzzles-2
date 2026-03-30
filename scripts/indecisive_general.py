@@ -10,13 +10,6 @@ Expected number of leaf nodes in a random BST of N elements = (N+1)/3.
 Drawn from TAOCP Volume 3: Sorting and Searching.
 """
 
-# The Indecisive General
-#
-# Build a random BST by inserting 1..N in random order.
-# Expected number of leaf nodes = (N+1)/3
-#
-# From: The Art of Computer Programming, Volume 3
-
 import random
 
 

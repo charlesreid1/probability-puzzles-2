@@ -14,16 +14,6 @@ where H_n is the n-th harmonic number.
 Drawn from TAOCP Volume 3: Sorting and Searching.
 """
 
-# The Fractious Tour Guide
-#
-# Build a random BST by inserting 1..N in random order.
-# The depth of element k equals the number of times that
-# tourist is split into a subgroup before being chosen as pivot.
-#
-# Expected depth of k = H_k + H_{N+1-k} - 2
-#
-# From: The Art of Computer Programming, Volume 3
-
 import random
 
 

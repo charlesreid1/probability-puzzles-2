@@ -10,13 +10,6 @@ Expected swaps = sum_{i=2}^{N} 1/i = H_N - 1.
 Drawn from TAOCP Volume 2: Seminumerical Algorithms.
 """
 
-# The Fickle Philanthropist
-#
-# Reservoir sampling K=1: expected number of times the reservoir
-# is overwritten = H_N - 1.
-#
-# From: The Art of Computer Programming, Volume 2
-
 import random
 
 

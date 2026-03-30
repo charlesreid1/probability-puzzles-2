@@ -14,13 +14,6 @@ This equals the expected total comparisons in average-case Quicksort.
 Drawn from TAOCP Volume 3: Sorting and Searching.
 """
 
-# The Bureaucrat's Burden
-#
-# Total internal path length of a random BST of N nodes.
-# Expected value = 2(N+1)*H_N - 4N
-#
-# From: The Art of Computer Programming, Volume 3
-
 import random
 
 

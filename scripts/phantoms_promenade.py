@@ -12,13 +12,6 @@ with load factor alpha = N/M:
 Drawn from TAOCP Volume 3: Sorting and Searching.
 """
 
-# The Phantom's Promenade
-#
-# Unsuccessful search in a linear probing hash table.
-# Expected probes ~ (1/2)(1 + 1/(1-alpha)^2) where alpha = N/M.
-#
-# From: The Art of Computer Programming, Volume 3
-
 import random
 
 

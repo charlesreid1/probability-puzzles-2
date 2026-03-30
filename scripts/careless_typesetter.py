@@ -12,18 +12,6 @@ The probability of exactly one swap is (N-1)/N! (swap any one adjacent pair).
 Drawn from TAOCP Volume 3: Sorting and Searching.
 """
 
-# The Careless Typesetter's Toll
-#
-# A careless typesetter drops a manuscript of N numbered pages,
-# producing a random permutation. He restores order by repeatedly
-# swapping adjacent out-of-order pages (bubble sort).
-#
-# Expected swaps = N(N-1)/4
-# P(zero swaps)  = 1/N!
-# P(one swap)    = (N-1)/N!
-#
-# From: The Art of Computer Programming, Volume 3
-
 import random
 from math import factorial
 

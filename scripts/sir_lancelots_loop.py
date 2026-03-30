@@ -13,13 +13,6 @@ simplicity.
 Drawn from TAOCP Volume 1: Fundamental Algorithms.
 """
 
-# Sir Lancelot's Loop
-#
-# In a random permutation of N, the probability that a specific
-# element is in a cycle of length K is 1/N, for all 1 <= K <= N.
-#
-# From: The Art of Computer Programming, Volume 1
-
 import random
 
 

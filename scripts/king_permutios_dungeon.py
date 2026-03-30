@@ -14,15 +14,6 @@ cycle of length N is exactly 1/N.
 Drawn from TAOCP Volume 1: Fundamental Algorithms.
 """
 
-# King Permutio's Dungeon
-#
-# A random permutation of N elements: what is the probability
-# that it consists of exactly one cycle of length N?
-#
-# P(single cycle) = 1/N
-#
-# From: The Art of Computer Programming, Volume 1
-
 import random
 
 

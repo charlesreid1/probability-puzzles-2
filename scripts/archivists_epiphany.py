@@ -14,16 +14,7 @@ For N=100, P(exactly 2) = |s(100,2)| / 100!
 Drawn from TAOCP Volume 1 & 3.
 """
 
-# The Archivist's Epiphany
-#
-# Left-to-right maxima in a random permutation of N elements.
-# Expected count = H_N = 1 + 1/2 + 1/3 + ... + 1/N
-# P(exactly k maxima) involves Stirling numbers of the first kind.
-#
-# From: The Art of Computer Programming, Volumes 1 & 3
-
 import random
-from math import log
 
 
 def count_left_to_right_maxima(perm):

@@ -12,13 +12,6 @@ is (N+1)/2.
 Drawn from TAOCP Volume 3: Sorting and Searching.
 """
 
-# The Dispatcher's Dilemma
-#
-# Expected number of ascending runs in a random permutation
-# of N elements = (N+1)/2.
-#
-# From: The Art of Computer Programming, Volume 3
-
 import random
 
 
